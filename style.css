@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: 12px;
+}
+
+/* Nav Bar */
+.header-section{
+    height: 50px;
+    box-shadow: none;
+    border-bottom: 1px solid #e8e8e8;
+}
+.navbar{
+    height: 50px;
+    margin: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.nav-item-left{
+    padding: 15px;
+}
+
+
+
+.nav-item-left ul li{
+    list-style: none;
+    display: inline;
+}
+
+.nav-item-left ul li a{
+    text-decoration: none;
+    color: #0088cc;
+    font-size: 15px;
+    padding: 15px 15px;
+}
+
+.nav-item-right{
+    padding: 15px;
+}
+
+ 
+
+.nav-item-right ul li{
+    list-style: none;
+    display: inline;
+}
+
+.nav-item-right ul li a{
+    text-decoration: none;
+    color: #0088cc;
+    font-size: 15px;
+    padding: 15px 15px;
+}
+/* Main content Start */
+.main-content-wrapper{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.logo-section-container{
+    height: 300px;
+}
+/* Logo Section */
+.main-content-logo-section{
+    text-align: center;
+}
+
+.main-content-logo{
+    padding: 10px;
+}
+
+.main-content-logo a{
+    text-decoration: none !important;
+}
+
+.main-content-logo a img{
+    display: block;
+    width: 125px;
+    height: 125px;
+    margin: -8px auto;
+}
+
+.logo-caption{ 
+   font-size: 20px;
+   color: #8c8c8c;
+   font-family:  "Helvetica Light", Helvetica, Arial , Verdana, sans-serif;
+   line-height: 148%; 
+   font-weight: 300;
+}
+/* Side News Bar */
+.side-news-bar{
+    border-left: 5px solid #179cde;
+    height: 280px;
+    position: absolute;
+    left: 70%;
+    margin-left: -3px;
+    margin-top: 90px;
+    top:0;
+    border-radius: 5px;
+}
+.side-recent-news{
+    height: 280px;
+    position: absolute;
+    left: 71%;
+    margin-top: 90px;
+    top:0;   
+    max-width: 160px;
+}
+
+.side-news-head{
+    display: block;
+    color: #0088cc;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.side-news-head:hover{
+    text-decoration: underline  #0088cc;
+}
+
+.news-date{
+    font-size: 14px;
+    display: block;
+    color: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.news-desc{
+    text-decoration: none !important;
+}
+
+.news-desc p{
+    font-size: 12px;
+    display: block;
+    color: #0088cc;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.news-desc p:hover{
+    text-decoration: underline #0088cc;;
+}
+
+/* Why Telegram? */
+
+.why-main-wrapper{
+    margin: 10px;
+}
+.why-head h2{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 300;
+    color: #222;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.why-wrapper{
+    margin: 20px 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.emoji{
+    text-align: center;
+    margin: 5px;
+}
+.spec{
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    width: 300px;
+}
+.spec-head{
+    color: #0088cc;
+    margin: 15px 0 6px;
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+}
+.spec-desc{
+    font-size: 15px;
+    text-align: center;
+}
+/* Main content End */
+
+/* Footer Section */
+
+.footer-section{
+    border-top: 1px solid #e8e8e8;
+    max-width: 900px;
+    margin: 10px auto 0;
+    padding: 28px 0 34px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+.footer_col_wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: stretch;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.footer-telegram{
+    flex: 0 1 290px;
+    align-self: auto;
+}
+
+
+.footer-column h5{
+    font-size: 14px;
+    margin-bottom: 9px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.footer-left-section ul li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-left-section ul li a{
+    text-decoration: none;
+    color: #0088cc;
+}
+
+.footer-left-section ul li a:hover {
+    text-decoration: underline;
+    color: #0088cc;
+}
+
+/* Footer End */
