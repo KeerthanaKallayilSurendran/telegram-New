@@ -147,13 +147,25 @@ body{
 .news-desc p:hover{
     text-decoration: underline #0088cc;;
 }
+/* Recent News */
+.recent-wrapper{
+    margin: 20px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.recent-news-tumb{
+    height: 220px;
+}
 
 /* Why Telegram? */
 
 .why-main-wrapper{
     margin: 10px;
 }
-.why-head h2{
+.head h2{
     text-align: center;
     font-size: 23px;
     font-weight: 300;
